@@ -1,0 +1,4 @@
+#weight-icon {
+    height:300px;
+
+}

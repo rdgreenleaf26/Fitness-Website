@@ -1,0 +1,42 @@
+#weight-icon {
+    height:300px;
+    margin:auto;
+}
+
+#food-icon {
+    height:300px;
+
+}
+
+#chart-icon {
+    height:300px;
+
+}
+
+.clicktile {
+padding-top:75px;
+}
+
+.tilediv :hover{
+height:100;
+width:100;
+}
+
+.tilelabel {
+
+padding-bottom:25px;
+padding-left:85px;
+
+}
+
+#user-image{
+padding-left:150px;
+}
+
+#admin-button{
+vertical-align : middle;
+}
+
+*:focus {
+    outline: none;
+}

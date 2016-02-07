@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="robbieCSS.css" type="text/css" media=screen>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron">
+<div class="row">
+<div class="container col-md-2"></div>
+<div class="container col-md-7"><h1>Fitness Log</h1></div>
+<div class="container col-md-2"><button type="button" id="admin-button" class="btn btn-default text-center">Admin</button></div>
+<div class="container col-md-1" id="user-image"> <img src="person.PNG" class="img-circle" alt="User Image" width="175" height="175"></div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12" id="banner"></div>
+</div>
+</div>
+
+<div class="row" id="tile-headers">
+  <div class="col-md-2">
+  </div>
+  
+  <div class="col-md-2 vcenter tilelabel" >
+	<h2>Lifting Log</h2>
+  </div>
+  
+  <div class="col-md-2 col-sm-offset-1 vcenter tilelabel">
+    <h2>Food Journal</h2>
+  </div>
+  
+  <div class="col-md-2 col-sm-offset-1 vcenter tilelabel">
+    <h2>Analytics</h2>
+  </div>
+  
+  <div class="col-md-3">
+  </div>  
+</div>
+
+<div class="row" id="tiles">
+  <div class="col-md-2">
+  </div>
+  
+  <div class="col-md-2" id="weight-icon" style="border: 2px solid black" onmouseover="border: this.5px solid black" onmouseout="this.border: 2px solid black">
+	<a href="weight.html"><img class="img-responsive center-block clicktile tilediv" src="Weight.png" alt="Weight" onmouseover="this.width='250'; this.height='250'" onmouseout="this.width='200'; this.height='200'" height="200" width="200"></a> 
+  </div>
+  
+  <div class="col-md-2 col-sm-offset-1 clicktile" id="food-icon" style="border: 2px solid black">
+	<img class="img-responsive center-block" src="Food.png" alt="Food" onmouseover="this.width='200'; this.height='200'" onmouseout="this.width='150'; this.height='150'" height="150" width="150">  
+  </div>
+  
+  <div class="col-md-2 col-sm-offset-1 clicktile" id="chart-icon" style="border: 2px solid black">
+	<img class="img-responsive center-block" src="Chart.png" alt="Chart" onmouseover="this.width='200'; this.height='200'" onmouseout="this.width='150'; this.height='150'" height="150" width="150"> 
+  </div>
+  
+  <div class="col-md-3">
+  </div>  
+</div>
+
+</body>
+</html>

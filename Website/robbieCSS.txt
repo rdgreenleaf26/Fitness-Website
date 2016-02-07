@@ -1,0 +1,4 @@
+#weight-icon img {
+    display:block;
+    margin:auto;
+}
